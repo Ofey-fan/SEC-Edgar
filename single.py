@@ -58,7 +58,7 @@ for z in range(len(typeList)):
         count = 0
         while (count < 300):
 
-            base_url = "http://www.folder.gov/cgi-bin/browse-edgar?action=getcompany&CIK=" + str(
+            base_url = "http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=" + str(
                 cikList[i]) + "&type="+str(typeList[z])+"&dateb=&owner=exclude&output=xml&match=&start=" + str(count) + "&count=100"
 
 
